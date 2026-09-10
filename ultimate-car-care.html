@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Car Care | Detailing, Body Work &amp; Paint — Bausher, Muscat</title>
+<meta name="description" content="Ultimate Car Care — 4.9-star rated detailing, auto body repair and auto painting on Bausher Street, Muscat, opposite Muscat Private Hospital. Call or WhatsApp for a quote.">
+<meta name="theme-color" content="#1C1A16">
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Ultimate Car Care | Detailing, Body Work &amp; Paint — Bausher, Muscat">
+<meta property="og:description" content="4.9-star rated detailing, auto body repair and auto painting workshop on Bausher Street, Muscat, Oman.">
+<meta property="og:locale" content="en_OM">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&amp;family=IBM+Plex+Mono:wght@500&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Ultimate Car Care",
+  "telephone": "+968 9937 0000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop 315A, Bausher Street, opposite Muscat Private Hospital",
+    "addressLocality": "Muscat",
+    "addressCountry": "OM"
+  },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "19" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "13:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "15:00", "closes": "19:00" }
+  ],
+  "sameAs": ["https://instagram.com/uccoman"]
+}
+</script>
+
+<style>
+  :root{
+    --paper:#F1ECE0;
+    --paper-2:#E7DFCC;
+    --ink:#1C1A16;
+    --ink-soft:#5B5647;
+    --ink-faint:#8A8471;
+    --accent:#C6401D;
+    --accent-dark:#8F2C12;
+    --wa:#25D366;
+    --wa-dark:#1DA851;
+    --line:#D6CCB4;
+    --line-dark:#3A362C;
+    --panel:#1C1A16;
+    --panel-text:#F1ECE0;
+    --r-s:3px;
+    --r-m:6px;
+    --maxw:1160px;
+    --f-display:'Archivo', sans-serif;
+    --f-body:'Inter', sans-serif;
+    --f-mono:'IBM Plex Mono', monospace;
+    --safe-b: env(safe-area-inset-bottom, 0px);
+  }
+
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--f-body);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  img,svg{max-width:100%; display:block;}
+  a{color:inherit;}
+  h1,h2,h3{
+    font-family:var(--f-display);
+    font-weight:800;
+    line-height:1.05;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0;}
+  ul{margin:0; padding:0; list-style:none;}
+  button{font-family:inherit;}
+  :focus-visible{outline:2px solid var(--accent-dark); outline-offset:3px;}
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px;}
+  @media (min-width:760px){ .wrap{padding:0 40px;} }
+
+  .kicker{
+    font-family:var(--f-mono);
+    font-size:0.72rem;
+    letter-spacing:0.04em;
+    color:var(--accent-dark);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:12px;
+    text-transform:lowercase;
+  }
+  .kicker::before{content:""; width:14px; height:1px; background:var(--accent-dark);}
+
+  /* ---------------- Buttons ---------------- */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    height:54px;
+    padding:0 24px;
+    border-radius:var(--r-s);
+    font-weight:700;
+    font-size:0.98rem;
+    text-decoration:none;
+    border:1.5px solid transparent;
+    cursor:pointer;
+    transition:transform .12s ease, filter .15s ease, background .15s ease;
+  }
+  .btn:active{transform:scale(0.98);}
+  .btn-call{background:var(--ink); color:var(--paper);}
+  .btn-call:hover{background:#000;}
+  .btn-wa{background:var(--wa); color:#08300F;}
+  .btn-wa:hover{background:var(--wa-dark);}
+  .btn-line{background:transparent; border-color:var(--line-dark); color:var(--ink);}
+  .btn-line:hover{border-color:var(--ink); background:rgba(28,26,22,0.04);}
+  .btn-block{width:100%;}
+  .btn .icon{width:19px; height:19px; flex:none; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+  .cta-row{display:flex; flex-direction:column; gap:12px;}
+  @media (min-width:560px){ .cta-row{flex-direction:row;} .cta-row .btn{flex:1;} }
+
+  /* ---------------- Header ---------------- */
+  header{
+    position:sticky; top:0; z-index:100;
+    background:rgba(241,236,224,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 20px; max-width:var(--maxw); margin:0 auto;}
+  @media (min-width:760px){ .nav{padding:16px 40px;} }
+  .brand{font-family:var(--f-display); font-weight:800; font-size:1.05rem; text-decoration:none; color:var(--ink); letter-spacing:-0.01em; white-space:nowrap;}
+  .brand em{font-style:normal; color:var(--accent-dark);}
+  .nav-links{display:none; gap:30px; align-items:center;}
+  .nav-links a{text-decoration:none; color:var(--ink-soft); font-size:0.92rem; font-weight:600; transition:color .15s ease;}
+  .nav-links a:hover{color:var(--ink);}
+  .nav-cta{display:none; align-items:center; gap:10px;}
+  .nav-cta .btn{height:42px; padding:0 16px; font-size:0.86rem;}
+  .hamburger{
+    display:flex; align-items:center; justify-content:center;
+    width:42px; height:42px;
+    background:none; border:1.5px solid var(--line-dark); border-radius:var(--r-s);
+    color:var(--ink); cursor:pointer;
+  }
+  @media (min-width:1000px){
+    .nav-links{display:flex;}
+    .nav-cta{display:flex;}
+    .hamburger{display:none;}
+  }
+
+  .menu-panel{
+    position:fixed; inset:0; z-index:200;
+    background:var(--paper);
+    display:flex; flex-direction:column;
+    transform:translateX(100%);
+    transition:transform .28s ease;
+  }
+  .menu-panel.open{transform:translateX(0);}
+  .menu-top{display:flex; justify-content:space-between; align-items:center; padding:14px 20px; border-bottom:1px solid var(--line);}
+  .menu-close{width:42px; height:42px; display:flex; align-items:center; justify-content:center; background:none; border:1.5px solid var(--line-dark); border-radius:var(--r-s); color:var(--ink); cursor:pointer;}
+  .menu-links{display:flex; flex-direction:column; padding:8px 20px; flex:1;}
+  .menu-links a{
+    text-decoration:none; color:var(--ink); font-family:var(--f-display); font-weight:700; font-size:1.5rem;
+    padding:16px 0; border-bottom:1px solid var(--line);
+  }
+  .menu-actions{padding:20px; display:flex; flex-direction:column; gap:12px; border-top:1px solid var(--line);}
+
+  /* ---------------- Hero ---------------- */
+  .hero{padding:36px 0 44px;}
+  @media (min-width:1000px){ .hero{padding:64px 0 72px;} }
+  .hero-grid{display:flex; flex-direction:column; gap:36px;}
+  @media (min-width:1000px){ .hero-grid{display:grid; grid-template-columns:1.15fr 0.85fr; gap:56px; align-items:center;} }
+
+  .hero h1{
+    font-size:clamp(2.05rem, 7.2vw, 3.25rem);
+    max-width:15ch;
+  }
+  .hero-lede{margin-top:18px; font-size:1.05rem; color:var(--ink-soft); max-width:46ch;}
+  .hero .cta-row{margin-top:26px;}
+  .hero-trust{
+    margin-top:22px;
+    display:flex; flex-wrap:wrap; align-items:center; gap:8px 14px;
+    font-size:0.86rem; color:var(--ink-soft);
+  }
+  .hero-trust b{color:var(--ink); font-weight:700;}
+  .hero-trust .sep{color:var(--line-dark);}
+  .hero-trust svg{width:14px; height:14px; vertical-align:-2px; margin-right:2px; color:var(--accent-dark);}
+
+  /* ticket card */
+  .ticket{
+    background:var(--panel);
+    color:var(--panel-text);
+    border-radius:var(--r-m);
+    padding:26px 24px;
+    position:relative;
+    transform:rotate(-1deg);
+    box-shadow:0 18px 40px -18px rgba(28,26,22,0.45);
+    max-width:360px;
+    margin:0 auto;
+  }
+  @media (min-width:1000px){ .ticket{margin:0 0 0 auto;} }
+  .ticket::before{
+    content:""; position:absolute; top:-9px; left:28px;
+    width:18px; height:18px; border-radius:50%;
+    background:var(--paper);
+    box-shadow:0 0 0 1.5px var(--line-dark);
+  }
+  .ticket-head{display:flex; justify-content:space-between; align-items:flex-start; border-bottom:1px dashed rgba(241,236,224,0.25); padding-bottom:16px; margin-bottom:16px;}
+  .ticket-head .t-label{font-family:var(--f-mono); font-size:0.68rem; letter-spacing:0.05em; color:rgba(241,236,224,0.55);}
+  .ticket-head .t-name{font-family:var(--f-display); font-weight:800; font-size:1.15rem; margin-top:4px;}
+  .ticket-rating{text-align:right;}
+  .ticket-rating .num{font-family:var(--f-display); font-weight:800; font-size:1.9rem; color:var(--accent);}
+  .ticket-rating .of{font-size:0.72rem; color:rgba(241,236,224,0.55);}
+  .ticket-rows{display:flex; flex-direction:column; gap:10px;}
+  .ticket-row{display:flex; justify-content:space-between; align-items:center; font-size:0.86rem;}
+  .ticket-row .k{color:rgba(241,236,224,0.55); font-family:var(--f-mono); font-size:0.7rem; letter-spacing:0.03em;}
+  .ticket-row .v{display:flex; align-items:center; gap:8px; font-weight:600;}
+  .ticket-row .v svg{width:14px; height:14px; color:var(--accent);}
+  .ticket-foot{margin-top:18px; padding-top:16px; border-top:1px dashed rgba(241,236,224,0.25); font-family:var(--f-mono); font-size:0.7rem; color:rgba(241,236,224,0.55); display:flex; justify-content:space-between;}
+
+  /* ---------------- Section shell ---------------- */
+  section{padding:52px 0;}
+  @media (min-width:1000px){ section{padding:88px 0;} }
+  .sec-head{max-width:640px; margin-bottom:36px;}
+  @media (min-width:1000px){ .sec-head{margin-bottom:48px;} }
+  .sec-head h2{font-size:clamp(1.6rem, 4.4vw, 2.15rem);}
+  .sec-head p{margin-top:12px; color:var(--ink-soft); font-size:1rem;}
+  .alt{background:var(--paper-2);}
+
+  /* ---------------- Services ---------------- */
+  .svc-row{
+    display:flex; flex-direction:column; gap:16px;
+    padding:28px 0;
+    border-top:1px solid var(--line);
+  }
+  .svc-row:last-child{border-bottom:1px solid var(--line);}
+  @media (min-width:760px){
+    .svc-row{flex-direction:row; align-items:center; gap:32px; padding:36px 0;}
+  }
+  .svc-swatch{display:flex; gap:6px; flex:none;}
+  .svc-swatch i{width:14px; height:34px; border-radius:2px; display:block;}
+  .svc-body{flex:1;}
+  .svc-body h3{font-size:1.3rem; margin-bottom:8px;}
+  .svc-body p{color:var(--ink-soft); font-size:0.96rem; max-width:52ch;}
+  .svc-tag{font-family:var(--f-mono); font-size:0.68rem; color:var(--ink-faint); flex:none; letter-spacing:0.03em;}
+
+  .services-foot{
+    margin-top:28px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;
+  }
+  .services-foot p{color:var(--ink-soft); font-size:0.92rem; max-width:40ch;}
+
+  /* ---------------- About ---------------- */
+  .about-copy{max-width:66ch;}
+  .about-copy p{color:var(--ink-soft); font-size:1.04rem; margin-bottom:18px;}
+  .about-copy p:last-of-type{margin-bottom:0;}
+  .about-stat{
+    font-family:var(--f-display); font-weight:800; color:var(--ink); font-size:1.15em;
+  }
+  .about-points{margin-top:30px; display:flex; flex-direction:column; gap:14px;}
+  .about-points li{display:flex; gap:12px; align-items:flex-start; font-size:0.98rem;}
+  .about-points svg{width:17px; height:17px; color:var(--accent-dark); margin-top:3px; flex:none;}
+
+  /* ---------------- Gallery ---------------- */
+  .film{
+    display:flex; gap:14px;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    padding-bottom:6px;
+    margin:0 -20px; padding-left:20px; padding-right:20px;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+  }
+  .film::-webkit-scrollbar{display:none;}
+  .film-tile{
+    scroll-snap-align:start;
+    flex:0 0 78%;
+    aspect-ratio:4/5;
+    border-radius:var(--r-m);
+    border:1px solid var(--line-dark);
+    position:relative;
+    display:flex; align-items:flex-end;
+    overflow:hidden;
+  }
+  @media (min-width:560px){ .film-tile{flex-basis:44%;} }
+  @media (min-width:1000px){
+    .film{overflow:visible; margin:0; padding:0; display:grid; grid-template-columns:repeat(4,1fr); gap:18px;}
+    .film-tile{flex:none;}
+  }
+  .ft1{background:linear-gradient(150deg,#2A2014,#1C1A16 72%);}
+  .ft2{background:linear-gradient(150deg,#241C13,#1C1A16 72%);}
+  .ft3{background:linear-gradient(150deg,#1E1B14,#1C1A16 72%);}
+  .ft4{background:linear-gradient(150deg,#231A12,#1C1A16 72%);}
+  .film-tile::before{content:""; position:absolute; inset:0; background:radial-gradient(circle at 72% 20%, rgba(198,64,29,0.28), transparent 60%);}
+  .film-tile span{
+    position:relative; z-index:2; padding:16px; font-size:0.78rem; color:rgba(241,236,224,0.7);
+    display:flex; align-items:center; gap:8px;
+  }
+  .film-tile svg{width:15px; height:15px;}
+  .gallery-foot{margin-top:24px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px;}
+  .gallery-foot p{color:var(--ink-soft); font-size:0.92rem; max-width:44ch;}
+
+  /* ---------------- Reviews strip ---------------- */
+  .rev-strip{
+    display:flex; flex-direction:column; gap:20px;
+    padding:28px; background:var(--panel); color:var(--panel-text);
+    border-radius:var(--r-m);
+  }
+  @media (min-width:760px){ .rev-strip{flex-direction:row; align-items:center; justify-content:space-between; padding:34px 40px;} }
+  .rev-left{display:flex; align-items:center; gap:18px;}
+  .rev-num{font-family:var(--f-display); font-weight:800; font-size:2.6rem; color:var(--accent);}
+  .rev-stars{display:flex; gap:3px; margin-bottom:4px;}
+  .rev-stars svg{width:15px; height:15px; fill:var(--accent); stroke:none;}
+  .rev-left p{color:rgba(241,236,224,0.65); font-size:0.88rem;}
+
+  /* ---------------- FAQ ---------------- */
+  .faq-list{max-width:760px;}
+  .faq-item{border-top:1px solid var(--line);}
+  .faq-item:last-child{border-bottom:1px solid var(--line);}
+  .faq-item summary{
+    list-style:none; cursor:pointer;
+    min-height:60px;
+    padding:18px 0;
+    display:flex; justify-content:space-between; align-items:center; gap:20px;
+    font-weight:700; font-size:1.02rem;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary .plus{flex:none; width:24px; height:24px; border:1.5px solid var(--line-dark); border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--accent-dark); transition:transform .2s ease; font-family:var(--f-body);}
+  .faq-item[open] summary .plus{transform:rotate(45deg);}
+  .faq-item .faq-a{padding:0 0 22px; color:var(--ink-soft); font-size:0.96rem; max-width:64ch;}
+
+  /* ---------------- Contact ---------------- */
+  .contact-primary{
+    background:var(--panel); color:var(--panel-text);
+    border-radius:var(--r-m);
+    padding:28px;
+  }
+  @media (min-width:760px){ .contact-primary{padding:40px;} }
+  .contact-primary h3{font-size:1.4rem; margin-bottom:6px;}
+  .contact-primary p{color:rgba(241,236,224,0.6); font-size:0.94rem; margin-bottom:22px;}
+  .contact-primary .cta-row .btn-line{border-color:rgba(241,236,224,0.3); color:var(--panel-text);}
+  .contact-primary .cta-row .btn-line:hover{border-color:var(--panel-text); background:rgba(241,236,224,0.06);}
+
+  .contact-details{margin-top:36px; display:flex; flex-direction:column; gap:0;}
+  @media (min-width:760px){ .contact-details{display:grid; grid-template-columns:1fr 1fr; gap:0 48px;} }
+  .cd-item{padding:18px 0; border-top:1px solid var(--line); display:flex; gap:14px;}
+  .cd-item svg{width:19px; height:19px; color:var(--accent-dark); flex:none; margin-top:2px;}
+  .cd-item h4{font-size:0.92rem; margin-bottom:4px; font-weight:700;}
+  .cd-item a, .cd-item p{color:var(--ink-soft); font-size:0.94rem; text-decoration:none;}
+  .cd-item a:hover{color:var(--accent-dark);}
+  .hours-table{width:100%; border-collapse:collapse;}
+  .hours-table td{padding:2px 0; font-size:0.9rem; color:var(--ink-soft);}
+  .hours-table td:last-child{text-align:right; color:var(--ink);}
+  .hours-note{margin-top:8px; font-size:0.78rem; color:var(--ink-faint); font-style:italic;}
+
+  .map-frame{margin-top:36px; border-radius:var(--r-m); overflow:hidden; border:1px solid var(--line); height:280px;}
+  @media (min-width:760px){ .map-frame{height:360px;} }
+  .map-frame iframe{width:100%; height:100%; border:0; filter:grayscale(0.4) sepia(0.08);}
+
+  /* ---------------- Footer ---------------- */
+  footer{padding:32px 0; border-top:1px solid var(--line);}
+  .footer-row{display:flex; flex-direction:column; gap:10px; font-size:0.85rem; color:var(--ink-faint);}
+  @media (min-width:760px){ .footer-row{flex-direction:row; justify-content:space-between; align-items:center;} }
+  .footer-row a{color:var(--ink-soft); text-decoration:none;}
+  .footer-row a:hover{color:var(--accent-dark);}
+
+  /* ---------------- Mobile sticky bar ---------------- */
+  .mbar{
+    position:fixed; left:0; right:0; bottom:0; z-index:150;
+    display:flex; gap:10px;
+    padding:10px 14px calc(10px + var(--safe-b));
+    background:rgba(241,236,224,0.96);
+    backdrop-filter:blur(10px);
+    border-top:1px solid var(--line);
+  }
+  .mbar a{flex:1;}
+  .mbar .btn{height:50px; font-size:0.92rem; padding:0 10px;}
+  @media (min-width:1000px){ .mbar{display:none;} }
+  .mbar-spacer{height:78px;}
+  @media (min-width:1000px){ .mbar-spacer{display:none;} }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#home" class="brand">Ultimate <em>Car Care</em></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+        WhatsApp
+      </a>
+      <a href="tel:+96899370000" class="btn btn-call">Call now</a>
+    </div>
+    <button class="hamburger" id="menuOpen" aria-label="Open menu" aria-controls="menuPanel" aria-expanded="false">
+      <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </nav>
+</header>
+
+<div class="menu-panel" id="menuPanel">
+  <div class="menu-top">
+    <a href="#home" class="brand">Ultimate <em>Car Care</em></a>
+    <button class="menu-close" id="menuClose" aria-label="Close menu">
+      <svg class="icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="menu-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="menu-actions">
+    <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa btn-block">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      WhatsApp us
+    </a>
+    <a href="tel:+96899370000" class="btn btn-call btn-block">Call +968 9937 0000</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Bausher Street · Muscat</p>
+        <h1>Detailing, body work and paint — handled properly.</h1>
+        <p class="hero-lede">A car detailing, auto body and auto painting workshop opposite Muscat Private Hospital. Call or WhatsApp and get a straight answer on price and timing.</p>
+        <div class="cta-row">
+          <a href="tel:+96899370000" class="btn btn-call">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.27a2 2 0 0 1 2.11-.45c.86.3 1.75.51 2.65.63A2 2 0 0 1 22 16.92z"/></svg>
+            Call now
+          </a>
+          <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+        <p class="hero-trust">
+          <span><svg viewBox="0 0 20 20" fill="currentColor" style="display:inline-block"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg><b>4.9/5</b> · 19 Google reviews</span>
+          <span class="sep">—</span>
+          <span>Opposite Muscat Private Hospital</span>
+        </p>
+      </div>
+
+      <div class="ticket">
+        <div class="ticket-head">
+          <div>
+            <div class="t-label">workshop / job card</div>
+            <div class="t-name">Ultimate Car Care</div>
+          </div>
+          <div class="ticket-rating">
+            <div class="num">4.9</div>
+            <div class="of">of 5 · 19 reviews</div>
+          </div>
+        </div>
+        <div class="ticket-rows">
+          <div class="ticket-row"><span class="k">SERVICE</span><span class="v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>Detailing</span></div>
+          <div class="ticket-row"><span class="k">SERVICE</span><span class="v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>Body work</span></div>
+          <div class="ticket-row"><span class="k">SERVICE</span><span class="v"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>Painting</span></div>
+        </div>
+        <div class="ticket-foot">
+          <span>SHOP 315A</span>
+          <span>OPEN · SAT–THU</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">What we do</p>
+        <h2>Three services, one workshop.</h2>
+        <p>No passing your car between shops — detailing, body repair and paint all happen on site.</p>
+      </div>
+
+      <div class="svc-row">
+        <div class="svc-swatch"><i style="background:#8A8271"></i><i style="background:#B8B0A0"></i><i style="background:#3A362C"></i></div>
+        <div class="svc-body">
+          <h3>Car detailing</h3>
+          <p>Interior and exterior detailing to bring a car back to a clean, cared-for condition.</p>
+        </div>
+        <span class="svc-tag">INT / EXT</span>
+      </div>
+
+      <div class="svc-row">
+        <div class="svc-swatch"><i style="background:repeating-linear-gradient(45deg,#C6401D,#C6401D 4px,#1C1A16 4px,#1C1A16 8px)"></i></div>
+        <div class="svc-body">
+          <h3>Auto body work</h3>
+          <p>Panel and bodywork repair for dents, scrapes and structural fixes, carried out on site.</p>
+        </div>
+        <span class="svc-tag">PANEL</span>
+      </div>
+
+      <div class="svc-row">
+        <div class="svc-swatch"><i style="background:#C6401D"></i><i style="background:#1C1A16"></i><i style="background:#8A8271"></i><i style="background:#B8B0A0"></i></div>
+        <div class="svc-body">
+          <h3>Auto painting</h3>
+          <p>Full and touch-up paint work, matched and applied to restore a factory-quality finish.</p>
+        </div>
+        <span class="svc-tag">PAINT</span>
+      </div>
+
+      <div class="services-foot">
+        <p>Not sure which service your car needs? Send a photo on WhatsApp and we'll advise.</p>
+        <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          Ask on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">About the workshop</p>
+        <h2>Built on repeat customers, not marketing.</h2>
+      </div>
+      <div class="about-copy">
+        <p>Ultimate Car Care operates out of Shop 315A on Bausher Street, directly opposite Muscat Private Hospital. Detailing, auto body repair and auto painting are handled by the same team, in the same workshop, rather than being farmed out elsewhere.</p>
+        <p>That approach has earned a <span class="about-stat">4.9 out of 5</span> rating across 19 Google reviews — a track record built one car at a time, not through advertising.</p>
+      </div>
+      <ul class="about-points">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20,6 9,17 4,12"/></svg>Detailing, body work and paint under one roof</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20,6 9,17 4,12"/></svg>Landmark location — opposite Muscat Private Hospital</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="20,6 9,17 4,12"/></svg>A real person answers the phone and WhatsApp</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">Recent work</p>
+        <h2>Gallery</h2>
+        <p>Before-and-afters are posted to Instagram as jobs are finished — this space is reserved for them.</p>
+      </div>
+      <div class="film">
+        <div class="film-tile ft1"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l1.5-3h5L16 7"/><circle cx="12" cy="13.5" r="3.5"/></svg>Photo coming soon</span></div>
+        <div class="film-tile ft2"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l1.5-3h5L16 7"/><circle cx="12" cy="13.5" r="3.5"/></svg>Photo coming soon</span></div>
+        <div class="film-tile ft3"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l1.5-3h5L16 7"/><circle cx="12" cy="13.5" r="3.5"/></svg>Photo coming soon</span></div>
+        <div class="film-tile ft4"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7l1.5-3h5L16 7"/><circle cx="12" cy="13.5" r="3.5"/></svg>Photo coming soon</span></div>
+      </div>
+      <div class="gallery-foot">
+        <p>Follow along for the latest detailing, body and paint jobs.</p>
+        <a href="https://instagram.com/uccoman" target="_blank" rel="noopener" class="btn btn-line">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          @uccoman
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="wrap">
+      <div class="rev-strip">
+        <div class="rev-left">
+          <span class="rev-num">4.9</span>
+          <div>
+            <div class="rev-stars" aria-hidden="true">
+              <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg>
+              <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg>
+              <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg>
+              <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg>
+              <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,11.9 15.5,18.5 10,15 4.5,18.5 6,11.9 1,7.5 7.4,7"/></svg>
+            </div>
+            <p>19 verified Google reviews</p>
+          </div>
+        </div>
+        <a href="https://www.google.com/search?q=Ultimate+Car+Care+Bausher+Muscat" target="_blank" rel="noopener" class="btn btn-line" style="border-color:rgba(241,236,224,0.3); color:#F1ECE0;">
+          Read reviews on Google
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">Good to know</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>Where exactly are you located?<span class="plus">+</span></summary>
+          <div class="faq-a">Shop 315A on Bausher Street, Muscat, directly opposite Muscat Private Hospital.</div>
+        </details>
+        <details class="faq-item">
+          <summary>What services do you offer?<span class="plus">+</span></summary>
+          <div class="faq-a">Car detailing, auto body work and auto painting, all handled at the same workshop.</div>
+        </details>
+        <details class="faq-item">
+          <summary>What are your opening hours?<span class="plus">+</span></summary>
+          <div class="faq-a">Generally open mornings and evenings, six days a week, closed Friday. Hours can vary slightly, so it's worth calling or messaging ahead to confirm.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How much will my car cost to detail, repair or paint?<span class="plus">+</span></summary>
+          <div class="faq-a">Pricing depends on the vehicle and the work needed. Call or WhatsApp the workshop directly for a quote — a photo helps if it's bodywork or paint.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I book online?<span class="plus">+</span></summary>
+          <div class="faq-a">There's no online booking system at the moment. The quickest way in is a call or a WhatsApp message.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker">Get in touch</p>
+        <h2>Visit or contact the workshop</h2>
+      </div>
+
+      <div class="contact-primary">
+        <h3>Fastest way to reach us</h3>
+        <p>Call for an immediate answer, or WhatsApp if it's easier to send a photo of your car.</p>
+        <div class="cta-row">
+          <a href="tel:+96899370000" class="btn btn-call">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.27a2 2 0 0 1 2.11-.45c.86.3 1.75.51 2.65.63A2 2 0 0 1 22 16.92z"/></svg>
+            +968 9937 0000
+          </a>
+          <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            WhatsApp us
+          </a>
+          <a href="https://www.google.com/maps?q=Bausher+Street+Muscat+Private+Hospital+Oman" target="_blank" rel="noopener" class="btn btn-line">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-details">
+        <div class="cd-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><h4>Address</h4><p>Shop 315A, Bausher Street, opposite Muscat Private Hospital, Muscat, Oman</p></div>
+        </div>
+        <div class="cd-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          <div><h4>Instagram</h4><a href="https://instagram.com/uccoman" target="_blank" rel="noopener">@uccoman</a></div>
+        </div>
+        <div class="cd-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          <div>
+            <h4>Opening hours</h4>
+            <table class="hours-table">
+              <tr><td>Sat – Thu</td><td>8:00 AM – 1:00 PM</td></tr>
+              <tr><td>Sat – Thu</td><td>3:00 PM – 7:00 PM</td></tr>
+              <tr><td>Friday</td><td>Closed</td></tr>
+            </table>
+            <p class="hours-note">Hours vary slightly by listing — call to confirm before visiting.</p>
+          </div>
+        </div>
+        <div class="cd-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.27a2 2 0 0 1 2.11-.45c.86.3 1.75.51 2.65.63A2 2 0 0 1 22 16.92z"/></svg>
+          <div><h4>Phone / WhatsApp</h4><a href="tel:+96899370000">+968 9937 0000</a></div>
+        </div>
+      </div>
+
+      <div class="map-frame">
+        <iframe title="Ultimate Car Care location map" src="https://www.google.com/maps?q=Bausher+Street+Muscat+Private+Hospital+Oman&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© <span id="year"></span> Ultimate Car Care — Shop 315A, Bausher Street, Muscat</span>
+    <span><a href="tel:+96899370000">+968 9937 0000</a> · <a href="https://instagram.com/uccoman" target="_blank" rel="noopener">@uccoman</a></span>
+  </div>
+</footer>
+
+<div class="mbar-spacer"></div>
+<nav class="mbar" aria-label="Quick actions">
+  <a href="tel:+96899370000" class="btn btn-call">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.79.63 2.65a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.43-1.27a2 2 0 0 1 2.11-.45c.86.3 1.75.51 2.65.63A2 2 0 0 1 22 16.92z"/></svg>
+    Call
+  </a>
+  <a href="https://wa.me/96899370000" target="_blank" rel="noopener" class="btn btn-wa">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    WhatsApp
+  </a>
+  <a href="https://www.google.com/maps?q=Bausher+Street+Muscat+Private+Hospital+Oman" target="_blank" rel="noopener" class="btn btn-line">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    Directions
+  </a>
+</nav>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const menuOpen = document.getElementById('menuOpen');
+  const menuClose = document.getElementById('menuClose');
+  const menuPanel = document.getElementById('menuPanel');
+  function openMenu(){ menuPanel.classList.add('open'); menuOpen.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
+  function closeMenu(){ menuPanel.classList.remove('open'); menuOpen.setAttribute('aria-expanded','false'); document.body.style.overflow=''; }
+  menuOpen.addEventListener('click', openMenu);
+  menuClose.addEventListener('click', closeMenu);
+  menuPanel.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+</script>
+
+</body>
+</html>
